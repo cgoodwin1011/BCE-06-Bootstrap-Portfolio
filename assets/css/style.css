@@ -1,6 +1,74 @@
 /* Charles Goodwin || PennCodingBootCampJan18 */
 
 /* BEGIN formatting applicable to elements regardless of page location */
+
+.float_right {
+    float: right;
+    /* background-color: fuchsia; */
+}
+
+.navbar-default .cpg {
+    
+} 
+
+.navbar-default .navbar-brand-cpg {
+    background-color: #62a7a4;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    color: white;
+    /* height: 100%; */
+    /* min-height: 75px; */
+}
+
+.navbar-default .navbar-brand-cpg:hover {
+    background-color: #62a7a4;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    color: white;
+}
+
+.navbar-default .navbar-brand-cpg:focus {
+    background-color: #62a7a4;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    color: white;
+}
+
+.navbar_brand_styles {
+    background-color: #62a7a4;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    color: white;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: white;
+  /* background-color: transparent; */
+}
+/* .navbar-default .navbar-brand {
+    background-color: #62a7a4;
+    font-size: 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    color: white;
+} */
+/* 
+.navbar_brand_styles > li:hover,
+.navbar_brand_styles > li:focus {
+    background-color: #62a7a4;    
+} */
+
+.navbar_brand_font_styles > li:hover,
+.navbar_brand_font_styles > li:focus {
+    background-color: #62a7a4;    
+}
+
+.navbar_brand_font_styles {
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    color: white;
+}
+
 .clearfix::after {
     content: “”;
     display: block;
