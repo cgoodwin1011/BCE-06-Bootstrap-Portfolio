@@ -7,68 +7,6 @@
     /* background-color: fuchsia; */
 }
 
-.navbar-default .cpg {
-    
-} 
-
-.navbar-default .navbar-brand-cpg {
-    background-color: #62a7a4;
-    font-size: 1.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;  
-    color: white;
-    /* height: 100%; */
-    /* min-height: 75px; */
-}
-
-.navbar-default .navbar-brand-cpg:hover {
-    background-color: #62a7a4;
-    font-size: 1.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;  
-    color: white;
-}
-
-.navbar-default .navbar-brand-cpg:focus {
-    background-color: #62a7a4;
-    font-size: 1.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;  
-    color: white;
-}
-
-.navbar_brand_styles {
-    background-color: #62a7a4;
-    font-size: 1.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;  
-    color: white;
-}
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: white;
-  /* background-color: transparent; */
-}
-/* .navbar-default .navbar-brand {
-    background-color: #62a7a4;
-    font-size: 1.5em;
-    font-family: Georgia, 'Times New Roman', Times, serif;  
-    color: white;
-} */
-/* 
-.navbar_brand_styles > li:hover,
-.navbar_brand_styles > li:focus {
-    background-color: #62a7a4;    
-} */
-
-.navbar_brand_font_styles > li:hover,
-.navbar_brand_font_styles > li:focus {
-    background-color: #62a7a4;    
-}
-
-.navbar_brand_font_styles {
-    font-size: 2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;  
-    color: white;
-}
-
 .clearfix::after {
     content: “”;
     display: block;
@@ -78,10 +16,9 @@
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-    background-image: url("../images/crossword.png");
+    background-image: url("../images/backgrounds/crossword.png");
     background-repeat: repeat;
     min-height: 600px;
-    /* border: 2px black dotted; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -198,9 +135,9 @@ enter"'?  It's a rhetorichal question */
     /* border: 2px lightskyblue solid; */
 }
 
-li.active {
+/* li.active {
     font-weight: bold;
-}
+} */
 
 #page_top_menu li:hover {
     background-color: #AAA;
@@ -388,6 +325,49 @@ label {
     background-color: #666666;
     border-top: 5px #62a7a4 solid;
 }
+
+/* styles for Bootstrap 3 */
+.white_background {
+    background-color: white !important;
+}
+
+.navbar-default-cpg {
+    background-color: white;
+    background-image: none;
+    border-top: 2px #cccccc solid;
+    border-bottom: 2px #cccccc solid;
+} 
+
+.navbar-brand-cpg {
+    color: white !important;
+    background-color: #62a7a4 !important;
+    font-size: 2em !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;  
+    /* height: 75px; */
+}
+
+.navbar-nav-cpg {
+    /* background-color: green; */
+    /* height: inherit; */
+}
+
+.navbar-nav-cpg li a{
+    /* min-height: 75px; */
+    /* padding-top: 15px; */
+    border-right: 1px black solid;
+    /* height: inherit;  */
+}
+
+li.active-cpg {
+    /* background-color: red !important; */
+    color: red;
+}
+
+.navbar_brand_font_styles > li:hover,
+.navbar_brand_font_styles > li:focus {
+    background-color: #62a7a4;    
+}
+
 
 /* 
 Teal color (used for headings and backgrounds): #4aaaa5
